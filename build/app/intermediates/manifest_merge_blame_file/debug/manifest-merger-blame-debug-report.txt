@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.foundation_legacy"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:10:5-66
+14-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:10:22-64
+15
+16    <application
+16-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:13:5-37:19
+17        android:name="io.flutter.app.FlutterApplication"
+17-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:14:9-57
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /home/zibtek/.gradle/caches/transforms-2/files-2.1/03a1806d004569b4266eebd9c791ef3d/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:16:9-43
+21        android:label="Legacy Foundation"
+21-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:15:9-42
+22        android:usesCleartextTraffic="true" >
+22-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:17:9-44
+23        <activity
+23-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:18:9-36:20
+24            android:name="com.found_legacy.MainActivity"
+24-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:19:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:22:13-144
+26            android:hardwareAccelerated="true"
+26-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:23:13-47
+27            android:launchMode="singleTop"
+27-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:20:13-43
+28            android:theme="@style/LaunchTheme"
+28-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:21:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:24:13-55
+30
+31            <!--
+32                 This keeps the window background of the activity showing
+33                 until Flutter renders its first frame. It can be removed if
+34                 there is no splash screen (such as the default splash screen
+35                 defined in @style/LaunchTheme).
+36            -->
+37            <meta-data
+37-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:29:13-31:40
+38                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+38-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:30:17-82
+39                android:value="true" />
+39-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:31:17-37
+40
+41            <intent-filter>
+41-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:32:13-35:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:33:17-68
+42-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:33:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:34:17-76
+44-->/home/zibtek/Videos/legacy-foundations/mobile/android/app/src/main/AndroidManifest.xml:34:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[:url_launcher] /home/zibtek/Videos/legacy-foundations/mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+48            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+48-->[:url_launcher] /home/zibtek/Videos/legacy-foundations/mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+49            android:exported="false"
+49-->[:url_launcher] /home/zibtek/Videos/legacy-foundations/mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+50            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+50-->[:url_launcher] /home/zibtek/Videos/legacy-foundations/mobile/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+51
+52        <provider
+52-->[:flutter_webview_plugin] /home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-18:20
+53            android:name="androidx.core.content.FileProvider"
+53-->[:flutter_webview_plugin] /home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-62
+54            android:authorities="com.foundation_legacy.fileprovider"
+54-->[:flutter_webview_plugin] /home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-64
+55            android:exported="false"
+55-->[:flutter_webview_plugin] /home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-37
+56            android:grantUriPermissions="true" >
+56-->[:flutter_webview_plugin] /home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-47
+57            <meta-data
+57-->[:flutter_webview_plugin] /home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:53
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->[:flutter_webview_plugin] /home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+59                android:resource="@xml/filepaths" />
+59-->[:flutter_webview_plugin] /home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-50
+60        </provider>
+61    </application>
+62
+63</manifest>

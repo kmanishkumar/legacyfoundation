@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_tooltip_enter.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_tooltip_exit.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/zibtek/Videos/legacy-foundations/mobile/build/flutter_webview_plugin/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/143e64e02da6243f36d6a2e4218b2540/appcompat-1.0.2/res/anim/abc_fade_in.xml"
+    }
+]

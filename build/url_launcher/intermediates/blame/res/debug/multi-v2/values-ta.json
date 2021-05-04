@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/zibtek/Videos/legacy-foundations/mobile/build/url_launcher/intermediates/res/merged/debug/values-ta/values-ta.xml",
+            "map": [
+                {
+                    "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/03a1806d004569b4266eebd9c791ef3d/core-1.1.0/res/values-ta/values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/zibtek/Videos/legacy-foundations/mobile/build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
+            "map": [
+                {
+                    "source": "/home/zibtek/.gradle/caches/transforms-2/files-2.1/03a1806d004569b4266eebd9c791ef3d/core-1.1.0/res/values-ta/values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
